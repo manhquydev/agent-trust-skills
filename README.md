@@ -23,14 +23,14 @@ The full method is written up in [docs/PLAYBOOK.md](docs/PLAYBOOK.md).
 
 | Skill | What it does |
 |---|---|
-| [build_agent_trust](skills/build-agent-trust/SKILL.md) | Climb the trust ladder in order, split work by reversibility, review decisions instead of output |
-| [verification_first](skills/verification-first/SKILL.md) | Give the agent a way to run and check the real product, with a feature map and evidence-required reporting |
-| [skill_evals](skills/skill-evals/SKILL.md) | Unit test skills with scored cases, a cross-model judge and a loop that runs until the score is perfect |
-| [hard_constraints](skills/hard-constraints/SKILL.md) | Turn soft guidance into lint rules, CI failures and architecture, so the shortest path is the best path |
-| [task_briefing](skills/task-briefing/SKILL.md) | Write five-part task briefs with pass or fail done criteria, and prototype instead of planning in the abstract |
-| [autonomous_runs](skills/autonomous-runs/SKILL.md) | Run agents unattended with a verifiable end condition, an isolated worktree and a one-line decision log |
-| [bot_team_design](skills/bot-team-design/SKILL.md) | Design an outer loop and an inner loop, one owner per task, few sharp bots with explicit anti-jobs |
-| [measure_agent_roi](skills/measure-agent-roi/SKILL.md) | Front-load token spend on verification, skills and refactors, and track the manual-fix rate instead of counting tasks |
+| [build-agent-trust](skills/build-agent-trust/SKILL.md) | Climb the trust ladder in order, split work by reversibility, review decisions instead of output |
+| [verification-first](skills/verification-first/SKILL.md) | Give the agent a way to run and check the real product, with a feature map and evidence-required reporting |
+| [skill-evals](skills/skill-evals/SKILL.md) | Unit test skills with scored cases, a cross-model judge and a loop that runs until the score is perfect |
+| [hard-constraints](skills/hard-constraints/SKILL.md) | Turn soft guidance into lint rules, CI failures and architecture, so the shortest path is the best path |
+| [task-briefing](skills/task-briefing/SKILL.md) | Write five-part task briefs with pass or fail done criteria, and prototype instead of planning in the abstract |
+| [autonomous-runs](skills/autonomous-runs/SKILL.md) | Run agents unattended with a verifiable end condition, an isolated worktree and a one-line decision log |
+| [bot-team-design](skills/bot-team-design/SKILL.md) | Design an outer loop and an inner loop, one owner per task, few sharp bots with explicit anti-jobs |
+| [measure-agent-roi](skills/measure-agent-roi/SKILL.md) | Front-load token spend on verification, skills and refactors, and track the manual-fix rate instead of counting tasks |
 
 ## Install
 
