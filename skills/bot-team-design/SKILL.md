@@ -1,3 +1,13 @@
+---
+name: bot-team-design
+description: Design a team of AI bots with an outer signal loop and an inner execution loop, one owner per task, verdicts that void on change, and few sharp bots with explicit anti-jobs. Use when scaling from one agent to many, or when bot responsibilities and credentials blur.
+license: MIT
+metadata:
+  author: manhquydev
+  version: "1.0.0"
+  source: Distilled from Lauren Tan's public talks and the pstack project
+---
+
 # Bot Team Design
 
 ## Split the outer loop from the inner loop
@@ -42,8 +52,10 @@
 
 - Give each bot its own email and service accounts where the platform allows, so its actions stay attributable and separable.
 
-## Available connectors
+## Related skills
 
-- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+- [Autonomous Runs](../autonomous-runs/SKILL.md)
 
-- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+- [Hard Constraints](../hard-constraints/SKILL.md)
+
+- [Build Agent Trust](../build-agent-trust/SKILL.md)

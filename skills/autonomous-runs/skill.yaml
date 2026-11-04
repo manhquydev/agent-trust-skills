@@ -1,4 +1,4 @@
-name: "autonomous_runs"
+name: "autonomous-runs"
 title: "Autonomous Runs"
 description: "Run agents unattended with a verifiable end condition, an isolated worktree, a decision log and an explicit stuck exit."
 category: "Work and knowledge"

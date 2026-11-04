@@ -1,3 +1,13 @@
+---
+name: skill-evals
+description: Unit test agent skills with scored evaluation cases, neutral case naming, a cross-model judge and a loop that runs until the score is perfect. Use when creating a skill that must be trusted, when a skill's real-world performance drifts, or after any model change.
+license: MIT
+metadata:
+  author: manhquydev
+  version: "1.0.0"
+  source: Distilled from Lauren Tan's public talks and the pstack project
+---
+
 # Skill Evals
 
 ## Treat every skill as code under test
@@ -28,8 +38,8 @@
 
 - Retire or rewrite a skill whose eval score drops twice in a row instead of patching it a third time.
 
-## Available connectors
+## Related skills
 
-- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+- [Verification First](../verification-first/SKILL.md)
 
-- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+- [Hard Constraints](../hard-constraints/SKILL.md)

@@ -1,3 +1,13 @@
+---
+name: hard-constraints
+description: Convert repeated agent mistakes and reminders into hard enforcement, ranked from style guides through lint and CI to architecture, so the shortest path is the best path. Use when the same error recurs, when guidance keeps being ignored, or when designing a codebase for agents.
+license: MIT
+metadata:
+  author: manhquydev
+  version: "1.0.0"
+  source: Distilled from Lauren Tan's public talks and the pstack project
+---
+
 # Hard Constraints
 
 ## Know the five layers
@@ -34,8 +44,10 @@
 
 - Count how often each constraint fires, and investigate the constraint rather than the agent when one fires constantly.
 
-## Available connectors
+## Related skills
 
-- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+- [Verification First](../verification-first/SKILL.md)
 
-- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+- [Skill Evals](../skill-evals/SKILL.md)
+
+- [Bot Team Design](../bot-team-design/SKILL.md)

@@ -1,3 +1,13 @@
+---
+name: build-agent-trust
+description: Earn autonomy for an AI coding agent in stages, promoting it only on verified evidence and splitting work by reversibility. Use when setting up a new agent collaboration, widening an agent's permissions, or diagnosing why an agent setup feels untrustworthy or bottlenecked on human review.
+license: MIT
+metadata:
+  author: manhquydev
+  version: "1.0.0"
+  source: Distilled from Lauren Tan's public talks and the pstack project
+---
+
 # Build Agent Trust
 
 ## Start as the verifier
@@ -40,8 +50,10 @@
 
 - Feed every flagged decision back into a skill, a check or a constraint so the same judgment is not needed twice.
 
-## Available connectors
+## Related skills
 
-- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+- [Verification First](../verification-first/SKILL.md)
 
-- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+- [Autonomous Runs](../autonomous-runs/SKILL.md)
+
+- [Measure Agent ROI](../measure-agent-roi/SKILL.md)

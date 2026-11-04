@@ -1,3 +1,13 @@
+---
+name: autonomous-runs
+description: Run an AI agent unattended with a verifiable end condition, an isolated worktree, a one-line-per-decision log and an explicit stuck exit. Use for overnight runs, long loops and any work that proceeds without check-ins.
+license: MIT
+metadata:
+  author: manhquydev
+  version: "1.0.0"
+  source: Distilled from Lauren Tan's public talks and the pstack project
+---
+
 # Autonomous Runs
 
 ## Check the three preconditions
@@ -30,8 +40,10 @@
 
 - Track how often the exit fires, because a run that often ends stuck is a briefing or constraints problem, not an agent problem.
 
-## Available connectors
+## Related skills
 
-- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+- [Task Briefing for Agents](../task-briefing/SKILL.md)
 
-- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+- [Build Agent Trust](../build-agent-trust/SKILL.md)
+
+- [Bot Team Design](../bot-team-design/SKILL.md)

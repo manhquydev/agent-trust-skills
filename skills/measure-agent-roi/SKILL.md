@@ -1,3 +1,13 @@
+---
+name: measure-agent-roi
+description: Measure whether an AI agent setup pays off by treating tokens as investment, front-loading spend on verification, skills and refactors, and tracking the manual-fix rate and accepted outcomes instead of task counts. Use when budgeting agent spend or reporting on agent productivity.
+license: MIT
+metadata:
+  author: manhquydev
+  version: "1.0.0"
+  source: Distilled from Lauren Tan's public talks and the pstack project
+---
+
 # Measure Agent ROI
 
 ## Treat tokens as investment capital
@@ -34,8 +44,8 @@
 
 - Write your cost and outcome numbers down weekly, so the investment case rests on your ledger rather than on anyone's public claims.
 
-## Available connectors
+## Related skills
 
-- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+- [Build Agent Trust](../build-agent-trust/SKILL.md)
 
-- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+- [Skill Evals](../skill-evals/SKILL.md)

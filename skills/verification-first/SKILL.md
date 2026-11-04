@@ -1,3 +1,13 @@
+---
+name: verification-first
+description: Build an AI agent's self-verification on the real product before delegating real work, including a feature map, evidence-required completion reports and checks proven to fail. Use when an agent claims success without proof, when starting work in a new codebase, or when defects keep escaping.
+license: MIT
+metadata:
+  author: manhquydev
+  version: "1.0.0"
+  source: Distilled from Lauren Tan's public talks and the pstack project
+---
+
 # Verification First
 
 ## Build the verification path before delegating
@@ -34,8 +44,10 @@
 
 - Turn every escaped defect into a new check first and a postmortem second.
 
-## Available connectors
+## Related skills
 
-- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+- [Skill Evals](../skill-evals/SKILL.md)
 
-- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+- [Hard Constraints](../hard-constraints/SKILL.md)
+
+- [Build Agent Trust](../build-agent-trust/SKILL.md)

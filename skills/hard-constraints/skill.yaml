@@ -1,4 +1,4 @@
-name: "hard_constraints"
+name: "hard-constraints"
 title: "Hard Constraints"
 description: "Convert repeated reminders into lint rules, CI failures and architecture, so the shortest path for an agent is the best path."
 category: "Work and knowledge"

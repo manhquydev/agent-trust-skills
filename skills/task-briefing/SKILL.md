@@ -1,3 +1,13 @@
+---
+name: task-briefing
+description: Write task briefs for AI agents with five parts, pass or fail done criteria and required evidence, without prescribing the method or anchoring a diagnosis. Use when delegating any non-trivial task to an agent, especially bugs, features, refactors and performance work.
+license: MIT
+metadata:
+  author: manhquydev
+  version: "1.0.0"
+  source: Distilled from Lauren Tan's public talks and the pstack project
+---
+
 # Task Briefing for Agents
 
 ## Write the five-part brief
@@ -46,8 +56,8 @@
 
 - Run performance work as baseline measurement first, and report only in before and after numbers.
 
-## Available connectors
+## Related skills
 
-- Use `muse.connector_search` to find other connectors and `muse.skill_search` to find related skills.
+- [Autonomous Runs](../autonomous-runs/SKILL.md)
 
-- If nothing here fits, look on the web for a maintained API or MCP server and set it up with [Custom Connectors and MCPs](/opt/muse/skills/custom-connector-setup/SKILL.md), or build a custom connector.
+- [Verification First](../verification-first/SKILL.md)

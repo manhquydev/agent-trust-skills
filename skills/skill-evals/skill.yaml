@@ -1,4 +1,4 @@
-name: "skill_evals"
+name: "skill-evals"
 title: "Skill Evals"
 description: "Unit test agent skills with scored cases, a cross-model judge and a loop that runs until the score is perfect."
 category: "Work and knowledge"
