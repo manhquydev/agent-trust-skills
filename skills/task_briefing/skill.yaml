@@ -1,0 +1,5 @@
+name: "task_briefing"
+title: "Task Briefing for Agents"
+description: "Write five-part task briefs with pass or fail done criteria and required evidence, and prototype instead of planning in the abstract."
+category: "Work and knowledge"
+include_in_prompt: false

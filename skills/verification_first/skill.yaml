@@ -1,0 +1,5 @@
+name: "verification_first"
+title: "Verification First"
+description: "Build an agent's self-verification on the real product, with a feature map and evidence-required reporting, before delegating real work."
+category: "Work and knowledge"
+include_in_prompt: false

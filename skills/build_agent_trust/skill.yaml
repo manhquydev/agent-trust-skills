@@ -1,0 +1,5 @@
+name: "build_agent_trust"
+title: "Build Agent Trust"
+description: "Earn autonomy for an AI agent in stages, promoting it only on evidence and splitting work by reversibility."
+category: "Work and knowledge"
+include_in_prompt: false
